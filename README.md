@@ -1,5 +1,5 @@
 # Foreground-Background-Segmentation
-# Adaptive Foreground-Background Segmentation — Android App
+## Adaptive Foreground-Background Segmentation — Android App
 
 Real-time background segmentation and swapping app for Android, built from 
 scratch in Java using the Butler et al. (2005) adaptive clustering algorithm.
