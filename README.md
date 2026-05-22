@@ -76,9 +76,8 @@ to fully fill foreground silhouettes, whereas MOG2 leaves holes in the foregroun
 ## Tech Stack
 - Java / Android Studio
 - YUV → RGB color space conversion
-- BFS-based connected component analysis
-- Gaussian and majority filter postprocessing
-
+- Gaussian filter preprocessing
+- BFS-based connected component analysis and majority filter postprocessing
 ---
 
 ## Technologies & Tools
