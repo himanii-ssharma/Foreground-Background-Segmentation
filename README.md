@@ -84,4 +84,3 @@ to fully fill foreground silhouettes, whereas MOG2 leaves holes in the foregroun
 - Java
 - Android Studio
 - OpenCV MOG2 (baseline comparison)
-- ECE 420 — Embedded DSP Laboratory, UIUC
