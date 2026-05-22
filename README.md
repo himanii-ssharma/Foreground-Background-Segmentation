@@ -71,6 +71,8 @@ Validated against **OpenCV MOG2** as a baseline with concurrent same-input testi
 The higher false positive rate is attributable to our algorithm's design choice 
 to fully fill foreground silhouettes, whereas MOG2 leaves holes in the foreground mask.
 
+The lower FPS rate (that still operates in real-time) is due to pre and post processing which is essential to produce a higher quality output.
+
 ---
 
 ## Tech Stack
