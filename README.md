@@ -18,7 +18,7 @@ an Android app interface.
 ---
 
 ## Algorithm
-Implements the **Butler et al. (2005)** adaptive clustering background model:
+Implements the **adaptive Gaussian Mixture Model** for background segmentation:
 
 1. **Cluster Matching** — Each pixel is compared to K weighted clusters using 
    Manhattan distance. If no match is found, the lowest-weight cluster is replaced.
