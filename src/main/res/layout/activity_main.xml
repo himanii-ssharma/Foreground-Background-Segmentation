@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable"
+    android:padding="24dp">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/MainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Processing"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/SubTitle1"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Real time Foreground and Background Segmentation"
+        android:textColor="#DDFFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/Segmentation"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="490dp"
+        android:background="@drawable/bg_gradient"
+        android:text="Start Segmentation"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>

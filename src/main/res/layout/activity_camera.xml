@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camera"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ece420.lab6.CameraActivity">
+
+    <Button
+        android:id="@+id/redButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:text="Red"
+        android:backgroundTint="#FF0000"/>
+
+    <Button
+        android:id="@+id/orangeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/redButton"
+        android:text="Orange"
+        android:backgroundTint="#FFA500"/>
+
+    <Button
+        android:id="@+id/yellowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/orangeButton"
+        android:text="Yellow"
+            android:backgroundTint="#FFFF00"/>
+
+    <Button
+        android:id="@+id/greenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/yellowButton"
+        android:text="Green"
+        android:backgroundTint="#00FF00"/>
+
+    <Button
+        android:id="@+id/blueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/greenButton"
+        android:text="Blue"
+        android:backgroundTint="#0000FF"/>
+
+    <Button
+        android:id="@+id/indigoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/blueButton"
+        android:text="Indigo"
+        android:backgroundTint="#4B0082"/>
+
+    <Button
+        android:id="@+id/violetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/indigoButton"
+        android:text="Violet"
+        android:backgroundTint="#EE82EE"/>
+
+    <Button
+        android:id="@+id/blackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/violetButton"
+        android:text="Black"
+        android:backgroundTint="#000000"/>
+
+    <Button
+        android:id="@+id/cameraSwitchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/blackButton"
+        android:text="Camera Switch"
+        android:backgroundTint="#964B00"/>
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Title" -->
+
+    <SurfaceView
+        android:layout_width="wrap_content"
+        android:layout_height="580dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ViewOrigin"
+        android:layout_alignParentEnd="true" />
+
+    <SurfaceView
+        android:layout_width="wrap_content"
+        android:layout_height="580dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ViewBackSeg"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/ViewOrigin" />
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Title" />-->
+
+</RelativeLayout>
